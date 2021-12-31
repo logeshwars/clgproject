@@ -9,9 +9,6 @@ function Top() {
             <h3>MCA coding club</h3>
         </div>
         <div className='topRight'>
-            <a href="#">Forum</a>
-            <a href="#">Challenges</a>
-            <a href="#">Placement</a>
         <button className='topRightButton'>Login <Login  style={{marginLeft:"6px",width:'20px'}}/></button>
         </div>
         </div>

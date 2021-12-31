@@ -4,6 +4,8 @@
 }
 :root{
 --primary:rgb(22, 126, 245);
+--border: 0.5px solid rgb(196, 197, 197);
+--shadow:0px 1px 2px rgba(0, 0, 0, 0.212);
 }
 button{
   outline: none;

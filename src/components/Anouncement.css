@@ -1,0 +1,27 @@
+.anouncement
+{
+    display: flex;
+    background-color: rgba(1, 138, 250, 0.13);
+    padding: 8px 10px;
+    gap: 5px;
+    border-radius: 3px;
+    box-shadow: var(--shadow);
+    flex-direction:column ;
+}
+.anouncement h3
+{
+
+    color:rgb(255, 255, 255);
+    background-color: rgb(1, 138, 250);
+    padding: 3px 10px ;
+    width: max-content;
+    border-radius: 3px;
+    font-size: 1rem;
+    font-weight: normal;
+}
+.anouncement p{
+    font-size: 0.9rem;
+    padding:0px 3px;
+    font-weight: 550;
+    color: rgba(0, 0, 0, 0.623);
+}

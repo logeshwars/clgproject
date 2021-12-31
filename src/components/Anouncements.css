@@ -1,0 +1,30 @@
+.anouncements{
+    flex:3;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    height: 400px;
+    position: sticky;
+    top:10vh;
+    overflow: hidden;
+    border:var(--border);
+    padding: 5px 10px;
+    box-shadow:var(--shadow); 
+}
+.anouncementsHead{
+    color:var(--primary);
+    padding: 12px 0;
+    font-size: 16px;
+    text-align: center;
+}
+.anouncements hr{
+    background-color: rgba(192, 192, 192, 0.26);
+    height: 1px;
+    border: none;
+    margin-bottom:5px;
+}
+.anouncementsHolder{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+
+}

@@ -14,15 +14,17 @@
     background-size: cover;
     height: 45vh;
     display: grid;
-     box-shadow: 1px 2px 5px rgb(211, 211, 211);
-    border-radius: 10px;
+    border:var(--border);
+     box-shadow:var(--shadow);
+    border-radius: 12px;
     place-items: center;
 }
 .middledivs:hover{
-    box-shadow: 10px 10px 40px rgb(214, 214, 214);
+    box-shadow: 10px 10px 40px rgb(228, 226, 226);
     transform: scale(1.1);
     transition-duration: 0.5s;
     transform-style: preserve-3d;
+    /* border: none; */
 }
 .mdivsSecond h1{
     font-weight:bold;
@@ -43,4 +45,8 @@ text-align: center;
  color:rgb(0, 119, 255);
  text-decoration: none;
  font-weight: bold;
+}
+.mdivsFirst img
+{
+    width: 50px;
 }

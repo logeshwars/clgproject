@@ -1,5 +1,5 @@
 import React from 'react'
-import Anouncement from './Anouncement'
+import Anouncements from './Anouncements'
 import Posts from './Posts'
 import './Body.css'
 
@@ -7,7 +7,7 @@ function Body() {
     return (
         <div className='body'>
             <Posts/>
-            <Anouncement/>
+            <Anouncements/>
         </div>
     )
 }

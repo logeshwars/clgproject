@@ -1,10 +1,9 @@
 import React  from 'react';
 import './App.css';
-import Top from './Top';
-import Carousel from './Carousel'
-import Body from './Body';
-import Middle from './Middle';
-import Hero from './Hero';
+import Top from './components/Top';
+import Body from './components/Body';
+import Middle from './components/Middle';
+import Hero from './components/Hero';
 
 function App() {
   return (

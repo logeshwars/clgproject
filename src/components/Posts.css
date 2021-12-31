@@ -26,8 +26,12 @@
 }
 .createPost:hover{
     border:none;
-    transition: 0.3s;
-    box-shadow: 1px 1px 5px black;
+   
+    position: relative;
+    bottom: 1px;
+    cursor: pointer;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.384); 
+    transition: all 0.3s;
 }
 .postsHead{
     background-color: white;
@@ -36,17 +40,17 @@
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-    border: 1px solid rgba(192, 192, 192, 0.61);
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.233);
+    border: var(--border);
+    box-shadow: var(--shadow); 
 }
 .post img{
     width: 100%;
 }
 .post{
     width:100%;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.233);
-    border: 1px solid rgba(192, 192, 192, 0.61);
-    border-radius: 8px;
+    box-shadow: var(--shadow); 
+    border:var(--border);
+    border-radius: 5px;
 
 }
 .postProfile{
@@ -68,6 +72,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px;
     flex-direction: column;
     margin-top: 10px;
     width: 70%;

@@ -3,13 +3,14 @@
 {
     background-color: #ffffff;
     color:#000000;
-    padding: 10px 20px;
+    padding: 10px 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     z-index: 1;
-    width: 97.2%;
+    width: calc(100% - 60px);
+    border-bottom: var(--border);
 }
 .topRightButton{
     background-color:var(--primary);
@@ -28,20 +29,10 @@
     transition-duration: 0.2s;
     background-color:blue;
 }
-
 .topRight{
     display: flex;
     align-items: center;
-    width: 30vw;
-    justify-content: space-around;
-}
+    }
 .topLeft h3{
     font-family: 'M PLUS Rounded 1c', sans-serif;
-}
-.topRight a{
-    text-decoration: none;
-    color: rgb(75, 74, 74);
-}
-.topRight a:hover{
-color:black
 }
