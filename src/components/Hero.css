@@ -6,6 +6,20 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:40vw 15vh;
+}
+.blob
+{
+    position: absolute;
+    width: 500px;
+    top:10px;
+    z-index: 0;
+}
+.heroTop ,.heroBottom
+{
+    z-index: 1;
 }
 .heroTop h3{
 font-size: 50px;
@@ -18,6 +32,7 @@ font-weight: bolder;
     margin:15px 0px;
     line-height: 33px;
     font-weight: 400;
+    
     width: 40vw;
     font-size: 16px;
     text-align: center;

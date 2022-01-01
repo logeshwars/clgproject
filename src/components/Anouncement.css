@@ -1,7 +1,7 @@
 .anouncement
 {
     display: flex;
-    background-color: rgba(1, 138, 250, 0.13);
+    background-color: rgb(255, 255, 255);
     padding: 8px 10px;
     gap: 5px;
     border-radius: 3px;

@@ -7,7 +7,7 @@ import Hero from './components/Hero';
 
 function App() {
   return (
-    <div className="app">
+    <div className="app" >
      <Top/>
      <Hero/>
      <Middle/>

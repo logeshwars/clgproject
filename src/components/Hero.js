@@ -4,8 +4,9 @@ import Typewriter from "typewriter-effect";
 
 function Hero() {
   return (
-    <div className="hero">
-      <div className="heroTop">
+    <div className="hero"  >
+       <img className="blob" src="images/blob.svg" alt=""/>
+      <div className="heroTop" >
         <h3>
           <Typewriter
             onInit={(typewriter) => {
@@ -25,7 +26,7 @@ function Hero() {
         </p>
       </div>
       <div className="heroBottom">
-        <button>sign in</button>
+        <button>sign up</button>
       </div>
     </div>
   );

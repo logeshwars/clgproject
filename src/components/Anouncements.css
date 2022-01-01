@@ -1,14 +1,14 @@
 .anouncements{
-    flex:3;
     background-color: rgb(255, 255, 255);
     border-radius: 6px;
     height: 400px;
-    position: sticky;
-    top:10vh;
     overflow: hidden;
     border:var(--border);
+    background-repeat: no-repeat;
     padding: 5px 10px;
     box-shadow:var(--shadow); 
+    position: sticky;
+    top:10vh;
 }
 .anouncementsHead{
     color:var(--primary);

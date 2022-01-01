@@ -4,3 +4,10 @@
     padding: 10px 20px;
     margin-top: 10px;
 }
+.bodyRight
+{
+    flex: 3;
+   display: flex;
+    flex-direction: column;  
+    gap: 10px;
+}

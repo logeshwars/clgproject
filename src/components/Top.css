@@ -8,7 +8,7 @@
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     width: calc(100% - 60px);
     border-bottom: var(--border);
 }
@@ -32,7 +32,24 @@
 .topRight{
     display: flex;
     align-items: center;
+    gap: 15px;
+    align-items: center;
     }
 .topLeft h3{
     font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.topLinks
+{
+display: flex;
+gap: 10px;
+}
+.topLinks a
+{
+    color: rgba(0, 0, 0, 0.603);
+    text-decoration: none;
+}
+.topLinks a:hover
+{
+    color: black;
+    transition: 0.4s;
 }

@@ -3,10 +3,10 @@ import Anouncement from './Anouncement'
 import './Anouncements.css'
 function Anouncements() {
     return (
-        <div className='anouncements'>
+        <div className='anouncements' style={{backgroundImage:"url('images/svg.png')"}}>
            <h3 className="anouncementsHead">Anouncement</h3> 
            <hr/>
-           <marquee behavior="scroll" scrollamount="10" direction="up">
+           <marquee behavior="scroll"  direction="up">
            <div className="anouncementsHolder">
            <Anouncement/>
            <Anouncement/>
