@@ -12,11 +12,13 @@ function Posts() {
           <button className='createPost' onClick={()=>{setShowPost(true)}}><AddBoxIcon/> <span>Create Post</span></button>
          </div>
            <div className="postHolder">
-              <Post profile="" name="Logeshwar" time="2 weeks" url="https://jssors8.azureedge.net/demos/image-slider/img/px-beach-daylight-fun-1430675-image.jpg"
+              <Post profile="" name="Logeshwar" title="Placement" time="2 weeks" url="https://kongu.ac.in/carousel/images/ranks2020.jpg"
              content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia natus non temporibus. Fugit, consequuntur explicabo quos temporibus beatae unde at placeat sequi dignissimos vel non deleniti eos labore sapiente? Consequatur."/>
-             <Post profile="" name="Logeshwar" time="2 weeks" url="https://jssors8.azureedge.net/demos/image-slider/img/px-beach-daylight-fun-1430675-image.jpg"
-             content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia natus non temporibus. Fugit, consequuntur explicabo quos temporibus beatae unde at placeat sequi dignissimos vel non deleniti eos labore sapiente? Consequatur."/>
-             <Post profile="" name="Logeshwar" time="2 weeks" url="https://jssors8.azureedge.net/demos/image-slider/img/px-beach-daylight-fun-1430675-image.jpg"
+             <Post profile="" title="Challenges" name="Logeshwar" time="2 weeks" url=""
+             content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia natus non temporibus. Fugit, consequuntur explicabo quos temporibus beatae unde at placeat sequi dignissimos vel non deleniti eos labore sapiente? Consequatur.
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia natus non temporibus. Fugit, consequuntur explicabo quos temporibus beatae unde at placeat sequi dignissimos vel non deleniti eos labore sapiente? Consequatur.
+             "/>
+             <Post profile="" title="Forums" name="Logeshwar" time="2 weeks" url="https://kongu.ac.in/carousel/images/pl_2.jpg"
              content="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia natus non temporibus. Fugit, consequuntur explicabo quos temporibus beatae unde at placeat sequi dignissimos vel non deleniti eos labore sapiente? Consequatur."/>
            </div>
           {showPost&&<div><CreatePost showPost={setShowPost}/></div>}

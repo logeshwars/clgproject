@@ -1,5 +1,6 @@
 import { Login } from '@mui/icons-material'
 import React from 'react'
+import {Link} from 'react-router-dom'
 import './Top.css'
 
 function Top() {
@@ -10,9 +11,10 @@ function Top() {
         </div>
         <div className='topRight'>
             <div class="topLinks">
-            <a href="#">Forum</a>
-            <a href="#">Challenges</a>
-            <a href="#">Placement</a>
+            <a><Link to='/'>Home</Link></a>
+            <a>Forum</a>
+            <a><Link to='challenges'>Challenges</Link></a>
+            <a>Placement</a>
             </div>
         <button className='topRightButton'>Login <Login  style={{marginLeft:"6px",width:'20px'}}/></button>
         </div>

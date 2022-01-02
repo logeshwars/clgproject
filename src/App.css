@@ -2,6 +2,10 @@
   margin:0;
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+body
+{
+  background-color: white;
+}
 :root{
 --primary:rgb(22, 126, 245);
 --border: 0.5px solid rgb(196, 197, 197);

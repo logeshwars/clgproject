@@ -1,6 +1,6 @@
 import React from 'react'
 import { Avatar } from '@material-ui/core'
-function Post({url,profile,content,time,name}) {
+function Post({url,profile,content,time,name,title}) {
     return (
         <div className='post'>
         <div className='postProfile'>
@@ -8,8 +8,9 @@ function Post({url,profile,content,time,name}) {
           <span  className='profileName'>{name}</span></div>
           <span className='postTime'> {`${time} ago`}</span>
          </div>
-         <img src={url} alt=''/>
+         {url&&<img src={url} alt=''/>}
          <div className='postContentHolder'>
+           <h3>{title}</h3>
          <p className='postContent'>
          {content}
         </p>

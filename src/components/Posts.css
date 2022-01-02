@@ -45,6 +45,7 @@
 }
 .post img{
     width: 100%;
+    min-height: 350px;
 }
 .post{
     width:100%;
@@ -58,7 +59,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
+    border-bottom: var(--border);
 }
+
 .postProfile div{
     display: flex;
     align-items: center;
